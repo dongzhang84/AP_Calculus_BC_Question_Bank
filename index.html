@@ -16,18 +16,18 @@
             text-align: center;
         }
         h1 {
-            font-size: 5em;
+            font-size: 5vw;
             margin-bottom: 20px;
         }
         h2 {
-            font-size: 3.5em;
+            font-size: 3.5vw;
             margin-bottom: 20px;
         }
         p {
             margin-bottom: 40px;
         }
         button {
-            font-size: 3em;
+            font-size: 3vw;
             padding: 10px 40px;
             color: white;
             background-color: #007BFF;
@@ -37,6 +37,19 @@
         }
         button:hover {
             background-color: #0056b3;
+        }
+        /* Media query for screens smaller than 600px wide */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 8vw; /* Larger font size on smaller screens */
+            }
+            h2 {
+                font-size: 6vw; /* Larger font size on smaller screens */
+            }
+            button {
+                font-size: 6vw; /* Larger font size on smaller screens */
+                padding: 8px 20px;
+            }
         }
     </style>
     <script src="globalVariables.js"></script>
