@@ -1,5 +1,3 @@
-// const ProblemList = [76,13,51,48,24,63,30,79,1,50,47];
-
 console.log("questionManager.js loaded");
 
 // const totalQuestions = 11;
